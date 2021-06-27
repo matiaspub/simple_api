@@ -1,0 +1,6 @@
+sensio_framework_extra:
+    router:
+        annotations: false
+    view:
+        listener:
+            alias: Sensio\Bundle\FrameworkExtraBundle\EventListener\TemplateListener
