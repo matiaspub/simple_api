@@ -1,8 +1,7 @@
 # Read the documentation: https://symfony.com/doc/master/bundles/FOSRestBundle/index.html
 fos_rest:
-    routing_loader: false
-    body_listener: true
+    body_listener:
+        enabled: true
     format_listener:
         rules:
-            - { path: '^/', prefer_extension: false, fallback_format: json, priorities: ['json'] }
-    param_fetcher_listener: true
+            - { path: ^/, prefer_extension: false, fallback_format: json, priorities: [ json ] }
