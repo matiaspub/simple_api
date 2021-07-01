@@ -12,6 +12,7 @@
         "friendsofsymfony/rest-bundle": "^3.0",
         "jms/serializer-bundle": "^3.9",
         "nelmio/api-doc-bundle": "^4.3",
+        "ramsey/uuid": "^4.1",
         "sensio/framework-extra-bundle": "^6.1",
         "symfony/asset": "4.4.*",
         "symfony/console": "4.4.*",
